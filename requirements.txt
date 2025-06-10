@@ -1,0 +1,4 @@
+streamlit>=1.25.0
+agency-swarm>=0.1.2
+pydantic>=1.10
+openai>=1.0.0
