@@ -45,19 +45,19 @@
 
 ```bash
 📦 ai-services-agency/
-├── 📁 agents/          # 🤖 Definitions for each specialized AI agent
-│   ├── ceo.py                   # 🧑‍💼 CEO – Strategic project analysis
-│   ├── cto.py                   # 🛠️ CTO – Technical architecture and specs
-│   ├── developer.py             # 👨‍💻 Lead Developer – Implementation planning
-│   ├── product_manager.py       # 📈 Product Manager – Roadmap and features
-│   └── client_manager.py        # 💼 Client Success Manager – GTM strategy
+├── 📁 agents/        # 🤖 Definitions for each specialized AI agent
+│   ├── ceo.py               # 🧑‍💼 CEO – Strategic project analysis
+│   ├── cto.py               # 🛠️ CTO – Technical architecture and specs
+│   ├── developer.py         # 👨‍💻 Lead Developer – Implementation planning
+│   ├── product_manager.py   # 📈 Product Manager – Roadmap and features
+│   └── client_manager.py    # 💼 Client Success Manager – GTM strategy
 │
-├── 📁 tools/           # 🧰 Tools used by agents
+├── 📁 tools/         # 🧰 Tools used by agents
 │   ├── analyze_project.py       # 📊 Analyze project requirements
 │   └── create_specification.py  # 📐 Create technical specification
 │
-├── 📁 core/            # 🔧 Core app logic and shared session
-│   └── session.py               # 🧠 Session state initialization
+├── 📁 core/          # 🔧 Core app logic and shared session
+│   └── session.py           # 🧠 Session state initialization
 │
 ├── 📄 app.py             # 🚀 Main Streamlit app – UI + Agent Orchestration
 ├── 📄 requirements.txt   # 📜 dependencies
